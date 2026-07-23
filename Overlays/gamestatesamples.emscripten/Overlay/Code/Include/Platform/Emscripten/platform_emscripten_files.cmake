@@ -6,7 +6,7 @@
 #
 #
 
-o3de_gem_setup()
-
-add_subdirectory(Code)
-
+set(FILES
+    GameStateSamples/GameStateSamples_Traits_Platform.h
+    GameStateSamples/GameStateSamples_Traits_Emscripten.h
+)
